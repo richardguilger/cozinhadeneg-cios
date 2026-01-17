@@ -8,8 +8,8 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* Brand Info */}
                     <div className="space-y-6">
-                        <Link href="/" className="flex items-center gap-3 bg-white/10 p-4 rounded-xl backdrop-blur-sm inline-flex">
-                            <div className="relative w-12 h-12">
+                        <Link href="/" className="flex items-center bg-white/10 p-4 rounded-xl backdrop-blur-sm inline-flex">
+                            <div className="relative w-40 h-10 md:w-48 md:h-12">
                                 <Image
                                     src="/logo.png"
                                     alt="Cozinha de Negócios"
@@ -17,9 +17,6 @@ export default function Footer() {
                                     className="object-contain brightness-0 invert"
                                 />
                             </div>
-                            <span className="font-serif text-xl font-bold tracking-tight">
-                                Cozinha de Negócios
-                            </span>
                         </Link>
                         <p className="text-brand-beige/80 leading-relaxed font-light">
                             Gastronomia é paixão. Negócio é estratégia. Aqui temos os dois.

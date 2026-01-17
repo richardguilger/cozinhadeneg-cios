@@ -31,8 +31,8 @@ export default function Navbar() {
                 }`}
         >
             <div className="container mx-auto px-4 md:px-8 flex items-center justify-between">
-                <Link href="/" className="flex items-center gap-3">
-                    <div className="relative w-12 h-12 md:w-16 md:h-16">
+                <Link href="/" className="flex items-center">
+                    <div className="relative w-40 h-12 md:w-56 md:h-16">
                         <Image
                             src="/logo.png"
                             alt="Cozinha de Negócios"
@@ -40,11 +40,6 @@ export default function Navbar() {
                             className="object-contain"
                             priority
                         />
-                    </div>
-                    <div className={`hidden md:block transition-opacity duration-300 ${isScrolled ? "opacity-100" : "opacity-0"}`}>
-                        <span className="font-serif text-brand-red text-xl font-bold tracking-tight">
-                            Cozinha de Negócios
-                        </span>
                     </div>
                 </Link>
 
