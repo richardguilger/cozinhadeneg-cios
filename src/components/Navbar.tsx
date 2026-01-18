@@ -37,7 +37,8 @@ export default function Navbar() {
                             src="/logo.png"
                             alt="Cozinha de Negócios"
                             fill
-                            className="object-contain"
+                            className="object-contain mix-blend-multiply"
+                            style={{ mixBlendMode: 'multiply' }}
                             priority
                         />
                     </div>
